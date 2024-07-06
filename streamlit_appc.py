@@ -219,7 +219,4 @@ elif interaction_mode == "Audio":
             tts = gTTS(text=text, lang=lang, slow=False)
             audio_file = "output.wav"
             tts.save(audio_file)
-            sound_file = BytesIO()
-            tts = gTTS(text, lang='en')
-            tts.write_to_fp(sound_file)
-            play_audio(sound_file)
+            os.system(audio_file)
