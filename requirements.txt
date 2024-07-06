@@ -13,4 +13,5 @@ streamlit-TTS
 python-dotenv
 openai
 ffmpeg
-gTTS
+gtts
+torchaudio
