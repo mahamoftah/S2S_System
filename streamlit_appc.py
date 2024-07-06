@@ -10,6 +10,8 @@ from groq import Groq
 import google.generativeai as genai
 import re
 
+os.environ['GOOGLE_API_KEY'] ="AIzaSyBaz13UTSLEsag18c_rHQ9yFUbX4sx3YYM"
+
 # Define model options
 modelOptions = {
     'Gemma2 9b': 'gemma2-9b-it',
