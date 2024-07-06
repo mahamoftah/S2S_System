@@ -13,3 +13,4 @@ streamlit-TTS
 python-dotenv
 openai
 ffmpeg
+gTTS
