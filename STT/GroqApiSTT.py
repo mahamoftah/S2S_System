@@ -1,12 +1,12 @@
 import os
 from groq import Groq as groq
 
-GROQ_API_KEY = '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'
+GROQ_API_KEY = "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"
 
 
 class GroqSTT:
     def __init__(self, model_path="whisper-large-v3",
-                 api_key_='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', proxy_url=None):
+                 api_key_="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", proxy_url=None):
         self.client = groq(api_key=api_key_)
         self.model = model_path
 
