@@ -2,8 +2,6 @@ import streamlit as st
 import os
 from st_audiorec import st_audiorec
 from streamlit_TTS import text_to_speech
-from torchaudio.io import play_audio
-
 from LLM.Embedding import *
 # from LLM.Gemini import *
 # from LLM.GroqApi import *
@@ -12,7 +10,6 @@ from groq import Groq
 import google.generativeai as genai
 import re
 from gtts import gTTS
-from io import BytesIO
 
 os.environ['GOOGLE_API_KEY'] ="AIzaSyBaz13UTSLEsag18c_rHQ9yFUbX4sx3YYM"
 

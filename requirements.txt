@@ -14,4 +14,3 @@ python-dotenv
 openai
 ffmpeg
 gtts
-torchaudio
