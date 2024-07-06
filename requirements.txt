@@ -1,0 +1,15 @@
+streamlit
+streamlit-webrtc
+groq
+PyPDF2
+langchain
+langchain-community
+langchain-google-genai
+google-generativeai
+google-api-python-client
+faiss-cpu
+streamlit-audiorec
+streamlit-TTS
+python-dotenv
+openai
+re
