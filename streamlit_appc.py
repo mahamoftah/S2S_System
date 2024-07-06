@@ -30,7 +30,7 @@ selected_model_id = modelOptions[selected_model]
 if selected_model_id == 'gemini-1.5-flash':
     chatModel = genai.GenerativeModel('gemini-1.5-flash')
 else:
-    chatModel = Groq()
+    chatModel = Groq(api_key = "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")
 
 STTModel = GroqSTT()
 Vectoriser = PDFVectoriser()
