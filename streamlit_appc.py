@@ -34,7 +34,7 @@ STTModel = GroqSTT()
 Vectoriser = PDFVectoriser()
 
 languages = ['English', 'Arabic']
-language = st.sidebar.selectbox("Choose a language", languages)
+language = st.sidebar.selectbox("Select a language", languages)
 lang = language[:2].lower()
 
 # HTML and CSS for styled title
