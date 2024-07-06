@@ -210,10 +210,10 @@ elif interaction_mode == "Audio":
 
             pattern = re.compile(r'[*#,]')
             text = pattern.sub('', response)
-            st.write(text)
-            # text_to_speech(text=text, language=lang)
+            # st.write(text)
+            text_to_speech(text=text, language=lang)
 
-            tts = gTTS(text=text, lang=lang, slow=False)
-            audio_file = "output.wav"
-            tts.save(audio_file)
-            os.system(audio_file)
+            # tts = gTTS(text=text, lang=lang, slow=False)
+            # audio_file = "output.wav"
+            # tts.save(audio_file)
+            # os.system(audio_file)
