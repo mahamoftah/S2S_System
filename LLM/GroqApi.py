@@ -3,7 +3,8 @@ from groq import Groq as groq
 import streamlit as st
 
 
-GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
+# GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
+GROQ_API_KEY = "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"
 
     
 class Groq:
