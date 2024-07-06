@@ -11,8 +11,9 @@ def configure_api(api_key, proxy_url=None):
         os.environ['http_proxy'] = proxy_url if proxy_url else None
     genai.configure(api_key=api_key)
     
-genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
+# genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
 os.environ['GOOGLE_API_KEY'] = st.secrets["GOOGLE_API_KEY"]
+# os.environ['GOOGLE_API_KEY'] ="AIzaSyBaz13UTSLEsag18c_rHQ9yFUbX4sx3YYM"
     
 class Gemini:
     def __init__(self, model_path='gemini-1.5-flash', api_key='AIzaSyCEzc2NtaIa3eBMh5QNp1wDaeSCH0OrN-g', proxy_url=None):
