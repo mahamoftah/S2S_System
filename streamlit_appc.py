@@ -211,6 +211,7 @@ elif interaction_mode == "Audio":
             pattern = re.compile(r'[*#,]')
             text = pattern.sub('', response)
             st.write(text)
+
             # text_to_speech(text=text, language=lang)
 
             tts = gTTS(text=text, lang=lang, slow=False)
