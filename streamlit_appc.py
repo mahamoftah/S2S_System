@@ -209,4 +209,5 @@ elif interaction_mode == "Audio":
 
             pattern = re.compile(r'[*#,]')
             text = pattern.sub('', response)
-            text_to_speech(text=response, language=lang)
+            st.write(text)
+            text_to_speech(text=text, language=lang)
