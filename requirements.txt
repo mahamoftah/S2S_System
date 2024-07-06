@@ -12,3 +12,4 @@ streamlit-audiorec
 streamlit-TTS
 python-dotenv
 openai
+ffmpeg
